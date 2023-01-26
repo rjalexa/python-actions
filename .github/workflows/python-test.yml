@@ -38,11 +38,11 @@ jobs:
 
       - name: pytest testing
         run: |
-          pytest
+          poetry run pytest
         
       - name: pytest coverage
         run:
-          pytest --cov=./ --cov-report=xml:tests/coverage.xml
+          poetry run pytest --cov=./ --cov-report=xml:tests/coverage.xml
 
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v3
