@@ -2,7 +2,7 @@
 
 ## Live status:
 
-[![Python test workflow](https://github.com/rjalexa/python-actions/actions/workflows/python-test.yml/badge.svg)](https://github.com/rjalexa/python-actions/actions/workflows/python-test.yml) [![Codecov](https://codecov.io/gh/rjalexa/python-actions/branch/main/graph/badge.svg?token=1F2VGHFJ3S)](https://codecov.io/gh/rjalexa/python-test) ![Linting](https://github.com/rjalexa/python-actions/actions/workflows/python-lint.yml/badge.svg) ![Formatting](https://github.com/rjalexa/python-actions/actions/workflows/python-format.yml/badge.svg)
+[![Python test workflow](https://github.com/rjalexa/python-actions/actions/workflows/python-test.yml/badge.svg)](https://github.com/rjalexa/python-actions/actions/workflows/python-test.yml) [![Codecov](https://codecov.io/gh/rjalexa/python-actions/branch/main/graph/badge.svg?token=1F2VGHFJ3S)](https://codecov.io/gh/rjalexa/python-test) ![Linting](https://github.com/rjalexa/python-actions/actions/workflows/python-lint.yml/badge.svg)
 
 ## Tooling
 
@@ -12,12 +12,11 @@
 
 ### Python Continuous Integration with GitHub Actions demo
 
-This minimal example is to show how to setup a project directory for a python project
-structuring:
+This minimal example is to show how to setup a python project directory, tooling and github actions to achieve an enforcement of code quality:
 
 - all the code under the python_actions directory, with each subdirectory being a package,
   and under it one or more module files, each containing one or more functions/classes
-- Code is evaluated with pylint (pylint src)
+- Code is formatted with black and evaluated with pylint
 - all the tests are under the tests directory to be picked up by pytest and each test imports the needed modules and functions.
 - pytest will also perform a coverage test to be sent to Codecov
-- the workflow automating all of this is in the .github/workflows directory and is triggered by a push to the master branch
+- the workflows automating all of this are in the .github/workflows directory and are triggered by a push to the master branch or by a pull request
