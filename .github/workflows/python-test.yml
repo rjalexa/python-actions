@@ -39,7 +39,7 @@ jobs:
       - name: pytest testing
         run: |
           poetry run pytest
-        
+
       - name: pytest coverage
         run:
           poetry run pytest --cov=./ --cov-report=xml:tests/coverage.xml
