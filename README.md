@@ -2,8 +2,7 @@
 
 ## Live status:
 
-[![Test workflow](https://github.com/rjalexa/python-actions/actions/workflows/python-test.yml/badge.svg)](https://github.com/rjalexa/python-actions/actions/workflows/python-test.yml) [![Codecov](https://codecov.io/gh/rjalexa/python-actions/branch/main/graph/badge.svg?token=1F2VGHFJ3S)](https://codecov.io/gh/rjalexa/python-test) ![Linting](https://github.com/rjalexa/python-actions/actions/workflows/python-lint.yml/badge.svg) [![Issue](https://img.shields.io/badge/contributions-welcome-black.svg?style=flat)](https://github.com/rjalexa/python-actions/issues)
-[![Open issues](https://img.shields.io/github/issues/rjalexa/python-actions)](https://github.com/rjalexa/python-actions/issues)
+[![Test workflow](https://github.com/rjalexa/python-actions/actions/workflows/python-test.yml/badge.svg)](https://github.com/rjalexa/python-actions/actions/workflows/python-test.yml) [![Codecov](https://codecov.io/gh/rjalexa/python-actions/branch/main/graph/badge.svg?token=1F2VGHFJ3S)](https://codecov.io/gh/rjalexa/python-test) ![Linting](https://github.com/rjalexa/python-actions/actions/workflows/python-lint.yml/badge.svg) [![Open issues](https://img.shields.io/github/issues/rjalexa/python-actions)](https://github.com/rjalexa/python-actions/issues)
 
 ## Tooling
 
