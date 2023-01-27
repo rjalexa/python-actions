@@ -20,3 +20,5 @@ This minimal example is to show how to setup a python project directory, tooling
 - all the tests are under the tests directory to be picked up by pytest and each test imports the needed modules and functions.
 - pytest will also perform a coverage test to be sent to Codecov
 - the workflows automating all of this are in the .github/workflows directory and are triggered by a push to the master branch or by a pull request
+- pre-commit hooks can run more or less the same checks on the local repository
+- the only (local) prerequisites are pyenv and poetry
